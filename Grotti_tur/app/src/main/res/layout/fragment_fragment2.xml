@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_gravity="top"
+        android:layout_margin="50dp"
+        android:src="@drawable/turismo_r" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="183dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="250dp"
+        android:text="Grotti Turismo R é um duas portas supercarro.\nGrotti Turismo R não é apenas um supercarro, é um verdadeiro monstro, com um dos maiores maximalnych velocidades no jogo."
+        android:textSize="17sp" />
+
+</FrameLayout>
